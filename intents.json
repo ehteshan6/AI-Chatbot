@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "question": ["Hi", "Hello", "Hey", "Good morning"],
+      "response": "Hello! How can I assist you today?"
+    },
+    {
+      "tag": "product_info",
+      "question": ["What is your product?", "Tell me about your product", "What do you sell?"],
+      "response": "We offer AI-powered chatbots for customer support, sales, and more."
+    },
+    {
+      "tag": "pricing",
+      "question": ["How much does it cost?", "What are the pricing plans?", "How much is your service?"],
+      "response": "Our pricing starts at $99 per month. Please visit our pricing page for more details."
+    },
+    {
+      "tag": "support",
+      "question": ["I need help", "Can you help me?", "I have a problem", "Support"],
+      "response": "Sure! What issue are you facing?"
+    },
+    {
+      "tag": "goodbye",
+      "question": ["Bye", "Goodbye", "See you", "Thank you"],
+      "response": "Goodbye! Have a great day!"
+    }
+  ]
+}
